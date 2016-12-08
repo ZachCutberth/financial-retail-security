@@ -1,0 +1,110 @@
+* {
+	padding: 0px;
+  	margin: 0px;
+  	font-family: 'Raleway', sans-serif;
+}
+
+@font-face {
+  font-family: 'OstrichSans-Medium';
+  src: url('../assets/fonts/OstrichSans-Medium.otf') format('opentype'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.btn-transparent {
+	background-color: transparent;
+	color: white;
+}
+
+.container-full {
+	
+  	background-image: url("../assets/images/partnersdark.jpg");
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover !important;
+  	height: 100vh;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+
+}
+
+.footer-container {
+	background-color: #1e2133;
+  	width: 100%;
+  	color: #fff;
+  	overflow: hidden;
+
+}
+
+.header-content {
+	
+  	flex-direction: column;
+  	max-width: 50%;
+  	text-align: center;
+  	color: white;
+  	font-family: 'Raleway', sans-serif;
+
+}
+
+h1 {
+	font-size: 70px !important;
+	}
+
+h3 {
+	font-size: 30px !important;
+}
+
+h4 {
+	font-size: 1.75em !important;
+}
+
+.button {
+	font-size: 30px !important;
+}
+
+.logo {
+	width: 100px;
+}
+
+.navbar {
+	background-color: transparent;
+	border-color: transparent !important;
+	font-size: 1.3em;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	padding-bottom: 10px !important;
+}
+
+.navbar-brand {
+	padding-top: 25px;	
+  	font-size: 2em;
+  	color: white !important;
+}
+
+.navbar-nav {
+  color: white !important;
+  padding-left: 20px;
+  margin-top: 3px;
+  font-size: 1.2em;
+
+}
+
+.navbar-right {
+  padding-right: 20px;
+}
+
+.title {
+	text-align: center;
+}
+
+.contactme {
+  background-color: #1e2133;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.section {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
