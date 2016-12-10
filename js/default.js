@@ -11,8 +11,8 @@ $(document).ready(function(){
           $(".navbar-default .navbar-header>a").css('color', '#000');
           $("#nav-contact").css('padding-right', '350px');
           $(".navbar-brand").css('padding-left', '350px');
-          $(".navbar-default .navbar-nav>li>a").css('padding-top', '20px');
-          $(".navbar-brand").css('padding-top', '27px');
+          $(".navbar-default .navbar-nav>li>a").css('padding-top', '30px');
+          $(".navbar-brand").css('padding-top', '30px');
        } else {
           $('.navbar-default').css('background-color', 'transparent');
           $(".navbar-default .navbar-nav>li>a").css('color', '#fff');
