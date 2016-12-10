@@ -95,11 +95,15 @@ h4 {
 	font-size: 1.4em !important;
 	text-transform: uppercase;
 	font-weight: 600;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 .logo {
 	width: 100px;
+}
+
+.navbar-default {
+	transition: background-color 2s ease 0s;
 }
 
 .navbar {
