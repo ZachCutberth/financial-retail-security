@@ -103,7 +103,7 @@ h4 {
 }
 
 .navbar-default {
-	transition: all 1s ease 0s;
+	transition: all 1s ease 0s !important;
 }
 
 .navbar {
