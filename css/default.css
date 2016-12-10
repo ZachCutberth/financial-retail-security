@@ -15,6 +15,11 @@
 
 .fullheight {
 	height: 100vh;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+
 }
 
 .btn-transparent {
@@ -63,7 +68,7 @@
 	letter-spacing: 2px;
 	font-weight: 800;
 	text-transform: uppercase;
-	font-size: 5em;
+	font-size: 4em;
 	padding-top: 20px;
 }
 
@@ -71,7 +76,7 @@
 	letter-spacing: 2px;
 	font-weight: 700;
 	text-transform: uppercase;
-	font-size: 1.75em;
+	font-size: 1.5em;
 }
 
 h1 {
@@ -87,7 +92,7 @@ h4 {
 }
 
 .button {
-	font-size: 23px !important;
+	font-size: 1.4em !important;
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 2px;

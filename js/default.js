@@ -9,8 +9,8 @@ $(document).ready(function(){
           $(".navbar-default").css('background-color', '#fff');
           $(".navbar-default .navbar-nav>li>a").css('color', '#000');
           $(".navbar-default .navbar-header>a").css('color', '#000');
-          $("#nav-contact").css('padding-right', '400px');
-          $(".navbar-brand").css('padding-left', '400px');
+          $("#nav-contact").css('padding-right', '350px');
+          $(".navbar-brand").css('padding-left', '350px');
           $(".navbar-default .navbar-nav>li>a").css('padding-top', '20px');
           $(".navbar-brand").css('padding-top', '27px');
        } else {
