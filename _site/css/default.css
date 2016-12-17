@@ -24,7 +24,7 @@
 
 .container-full {
 	
-  	background-image: url("../assets/images/office-big-dark.jpg");
+  	background-image: url("../assets/images/office-big-dark2.jpg");
   	background-position: center;
   	background-repeat: no-repeat;
   	background-attachment: fixed;
@@ -144,7 +144,7 @@ h4 {
  }
 
 .navbar-brand {
-	padding-top: 50px;
+	padding-top: 45px;
   	font-size: 2.5em;
   	font-weight: 800;
   	padding-left: 50px;
@@ -200,7 +200,7 @@ h4 {
 }
 
 .services-icon {
-	font-size: 8em;
+	font-size: 6em;
 }
 
 .text-center {
@@ -220,4 +220,30 @@ h4 {
 
 #block {
     
+}
+
+.navbar-collapse {
+	max-height: 500px !important;
+	} 
+
+.navbar-default .navbar-collapse {
+	border: none;
+}
+
+/* Small Devices, Tablets */
+
+
+@media only screen and (max-width : 768px) {
+	.navbar-default .navbar-nav>li>a { padding-top: 0; color: black;}
+	.navbar-collapse ul {background-color: white;}
+}
+
+.services-bg {
+	background-image: url("../assets/images/running-man-dark.jpg");
+	background-position: right;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover !important;
+  	color: white;
+
 }
