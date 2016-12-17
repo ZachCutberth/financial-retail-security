@@ -247,3 +247,13 @@ h4 {
   	color: white;
 
 }
+
+.tradeshows-bg {
+	background-image: url("../assets/images/pedestrians-dark.jpg");
+	background-position: right;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover !important;
+  	color: white;
+
+}
