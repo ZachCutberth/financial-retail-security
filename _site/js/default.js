@@ -13,6 +13,7 @@ $(document).ready(function(){
           $(".navbar-brand").css('padding-left', '350px');
           $(".navbar-default .navbar-nav>li>a").css('padding-top', '30px');
           $(".navbar-brand").css('padding-top', '30px');
+          $("ul.nav a:hover").css('color', 'black');
        } else {
           $('.navbar-default').css('background-color', 'transparent');
           $(".navbar-default .navbar-nav>li>a").css('color', '#fff');
@@ -21,6 +22,7 @@ $(document).ready(function(){
           $(".navbar-brand").css('padding-left', '50px');
           $(".navbar-default .navbar-nav>li>a").css('padding-top', '50px');
           $(".navbar-brand").css('padding-top', '50px');
+          $("ul.nav a:hover").css('color', 'white');
        }
    });
     }

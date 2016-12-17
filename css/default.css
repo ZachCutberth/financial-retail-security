@@ -120,9 +120,16 @@ h4 {
 	height: 75px;
 }
 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-header > a:hover, .navbar-default .navbar-haeder > a:focus {
+	opacity: .7;
+	color: white;
+}
+
+
+
 .navbar-hover:hover {
 	
-	opacity: .7 !important;
+	opacity: .7;
 }
 
 .navbar-default .navbar-nav>li>a {
