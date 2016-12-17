@@ -38,9 +38,9 @@
 }
 
 .footer-container {
-	background-color: #1e2133;
+	background-color: #f7f7f7;
   	width: 100%;
-  	color: #fff;
+  	color: #000;
   	overflow: hidden;
   	text-transform: uppercase;
   	font-size: 25;
@@ -139,7 +139,7 @@ h4 {
 
 .navbar-nav {
   margin-top: 0px;
-  font-size: 1.2em;
+  font-size: 1em;
 
 }
 
@@ -149,11 +149,13 @@ h4 {
 
 .title {
 	text-align: center;
+	font-weight: 800;
+	letter-spacing: .1em;
 }
 
 .contactme {
-  background-color: #1e2133;
-  color: white;
+  background-color: #f7f7f7;
+  
   padding-bottom: 20px;
 }
 
@@ -163,8 +165,9 @@ h4 {
 }
 
 .about {
-	line-height: 1.5 !important;
-	font-size: 1.5em !important;
+	line-height: 2 !important;
+	font-size: 1.15em !important;
+	letter-spacing: 2px !important;
 }
 
 .vertical-align {
@@ -172,3 +175,19 @@ h4 {
     display: inline-block;
 
 }
+
+.frs-team {
+	font-family: 'Caveat', cursive;
+}
+
+.blockquote {
+	font-weight: 700;
+	letter-spacing: .2em;
+}
+
+/*.aboutbg {
+	background-image: url("../assets/images/pedestrians.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}*/
