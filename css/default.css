@@ -24,7 +24,7 @@
 
 .container-full {
 	
-  	background-image: url("../assets/images/partnersdark.jpg");
+  	background-image: url("../assets/images/office-big-dark.jpg");
   	background-position: center;
   	background-repeat: no-repeat;
   	background-attachment: fixed;
@@ -38,7 +38,7 @@
 }
 
 .footer-container {
-	background-color: #f7f7f7;
+	background-color: #fff;
   	width: 100%;
   	color: #000;
   	overflow: hidden;
@@ -94,6 +94,7 @@ h4 {
 	letter-spacing: 1px;
 	border: 0px !important;
 	transition: all 1s ease 0s;
+	padding-top: 0px;
 }
 
 .button:hover {
@@ -144,7 +145,7 @@ h4 {
 
 .navbar-brand {
 	padding-top: 50px;
-  	font-size: 2em;
+  	font-size: 2.5em;
   	font-weight: 800;
   	padding-left: 50px;
   	letter-spacing: 2px;
@@ -167,7 +168,7 @@ h4 {
 }
 
 .contactme {
-  background-color: #f7f7f7;
+  background-color: #fff;
   
   padding-bottom: 20px;
 }
@@ -198,9 +199,25 @@ h4 {
 	letter-spacing: .2em;
 }
 
+.services-icon {
+	font-size: 10em;
+}
+
+.text-center {
+	text-align: center;
+}
 /*.aboutbg {
 	background-image: url("../assets/images/pedestrians.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }*/
+
+#wrapper {
+    display: flex;               /* establish flex container */
+    align-items: center;         /* vertically center flex items */
+}
+
+#block {
+    
+}
