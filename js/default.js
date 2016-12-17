@@ -12,7 +12,7 @@ $(document).ready(function(){
           $("#nav-contact").css('padding-right', '350px');
           $(".navbar-brand").css('padding-left', '350px');
           $(".navbar-default .navbar-nav>li>a").css('padding-top', '30px');
-          $(".navbar-brand").css('padding-top', '30px');
+          $(".navbar-brand").css('padding-top', '16px');
           $(".navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-header > a:hover, .navbar-default .navbar-haeder > a:focus").css('color', 'black');
        } else {
           $('.navbar-default').css('background-color', 'transparent');
