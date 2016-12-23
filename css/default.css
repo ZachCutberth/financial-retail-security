@@ -305,3 +305,52 @@ a.anchor {
 .calltoaction {
 	padding-top: 50px;
 }
+
+.circle-img {
+	border-radius: 50%;
+}
+
+.quotebg {
+	background-image: url('../assets/images/pedestrians-dark.jpg');
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover !important;
+  	height: 350px;
+}
+
+.text-style-black {
+	line-height: 2 !important;
+	font-size: 1.15em !important;
+	letter-spacing: 2px !important;
+}
+
+.quote {
+	line-height: 2 !important;
+	font-size: 1.4em !important;
+	letter-spacing: 2px !important;
+	color: white;
+}
+
+.quote-padding {
+	padding-top: 100px;
+	padding-bottom: 75px;
+}
+
+.tradeshow-padding {
+	padding-top: 50px;
+}
+
+.tradeshow-height {
+	height: 925px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.grid-paddign {
+	padding-bottom: 150px
+}
+
+.quote-icon {
+	padding-bottom: 20px;
+}
